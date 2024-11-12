@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .container {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(236, 228, 228);
+        }
+        header,
+        footer{
+            border-radius: 0.5rem;
+            height: 100px;
+            padding: 2rem 0 0 1rem;
+        }
+        header{
+            background: #1e90ff;
+            margin: 0 450px 1em 450px;
+            box-shadow: 0 3px 3px 2px#0077ea;
+        }
+        footer{
+            background: #4169e1 ;
+            margin: 1em 450px 0 450px;
+            box-shadow: 0 3px 3px 2px#1d44b8;
+        }
+        .body{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 1em;
+            margin: 0 450px 0 450px;
+            flex-grow: 1;
+        }
+        .main{
+            background: #3cb371;
+            border-radius: 0.5rem;
+            box-shadow: 0 3px 3px 2px#2f8d59;  
+        }
+        .sidebar{
+            background: #ff6347;
+            width: 300px;
+            border-radius: 0.5rem;
+            padding-top: 2rem;
+            text-align: center;
+            box-shadow: 0 3px 3px 2px#e02200;
+        }
+        .itemContainer{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 1rem ;
+        }
+        .itemContainer > .item{
+            background: #2f8d59 ;
+            width: 100px;
+            height: 50px;
+            border-radius: 0.5rem;
+            text-align:center;
+            padding-top: 30px;
+            box-shadow: 0 3px 3px 2px #226741;     
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>header</header>
+        <div class="body">
+            <section class="main">
+                <p style="padding: 1rem;">main</p>
+                <div class="itemContainer">
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                </div>
+            </section>
+            <section class="sidebar">sidebar</section>
+        </div>
+        <footer>footer</footer>
+    </div>
+</body>
+</html>
