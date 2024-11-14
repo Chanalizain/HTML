@@ -1,0 +1,30 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+    
+}
+div{
+    background: white;
+    margin: 30px 100px 30px 100px;
+    border-radius: 10px;
+    padding: 20px;
+}
+button{
+    border-radius: 30px;
+    border-style: none;
+    height: 30px;
+}
+button:hover{
+    cursor: pointer;
+}
+#b{
+    background: rgb(62, 143, 170);
+    color: aliceblue;
+}
+#y{
+    background: rgb(184, 134, 59);
+}
+#p{
+    background: rgb(139, 62, 139);
+    color: aliceblue;
+}

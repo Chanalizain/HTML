@@ -1,0 +1,53 @@
+div{
+    width: 300px;
+    text-align: center;
+    background: white;
+    box-shadow: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+button{
+    width: 140px;
+    height: 26px;
+    border-radius: 30px;
+    background: rgb(122, 156, 201);
+    border-style: none;
+    margin: 10px auto 20px auto;
+    color: white;
+
+}
+button:hover{
+    cursor: pointer;
+    background:rgb(158, 184, 218) ;
+    
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 180px;
+}
+#bio{
+    color: gray;
+    font-size: small;
+}
+
+#pronounce{
+    font-size: small;
+    color: gray;
+}
+.contact{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.contact > img{
+    width: 18px;
+    height: 18px;
+
+}
