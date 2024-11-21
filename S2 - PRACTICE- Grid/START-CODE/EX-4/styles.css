@@ -13,15 +13,16 @@ html, body {
 .info{
     display: grid;
     grid-template-columns: auto 300px;
+    grid-template-rows: 50px auto;
     gap: 30px;
 }
 .menu{
     display: grid;
     grid-template-rows: repeat(4,auto);
-    background: rgb(130, 128, 128);
+    background: rgb(148, 148, 148);
     justify-content: center;
     padding: 100px 0 200px 0;
-    gap: 50px;
+    gap: 50px;   
 }
 #dashboard{
     background: rgb(192, 191, 191);
@@ -39,9 +40,6 @@ html, body {
     grid-template-rows: 200px auto;
     gap: 30px;
 }
-.streak{
-    background: pink;
-}
 .theRest{
     display: grid;
     grid-template-rows: auto auto;
@@ -50,23 +48,60 @@ html, body {
 }
 .profile{
     display: grid;
-    grid-template-rows: auto;
-    background: rgb(134, 161, 209);
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    background: white;
+    text-align: center;
+    border-radius: 30px;
+    margin-right: 30px;
 }
-img{
+.pp{
     height: 95px;
     width: 100px;
     border-radius: 90px;
 }
-#vdoCount{
-    background: white;
+#graph{
+    height: 70px;
+    width: 200px;
 }
-#con{
-    background: white; 
+#tiktok{
+    height: 100px;
+    width: 70px;
 }
-#streakGoal{
+#vdoCount, #con, #streakGoal, #latestVdo {
     background: white;
+    border-radius: 30px;
+    padding: 20px 0 0 30px;
+    display: grid;
+    grid-row: auto auto;
 }
-#latestVdo{
+.streak{
+    background: rgb(251, 207, 221);
+    border-radius: 30px;
+    padding: 20px 0 0 30px;
+    display: grid;
+    grid-row: auto auto;   
+}
+.smallContent{
+    font-size: x-large;
+    font-weight: 100;
+}
+.header, .profileheader, .x{
+    grid-column: 1 / -1; /* Span */
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0 0 0px;
+}
+.person1, .person2{
+    text-align: center;
+}
+button{
+    border: rgb(251, 207, 221);
+    border-style: solid;
     background: white;
+    border-radius: 20px;
+    border-width: 4px;
+    height: 30px;
 }
