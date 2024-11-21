@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background: rgb(209, 208, 208);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 300px auto;
+    height: 100%;
+    gap: 30px;
+}
+.info{
+    display: grid;
+    grid-template-columns: auto 300px;
+    gap: 30px;
+}
+.menu{
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+    background: rgb(130, 128, 128);
+    justify-content: center;
+    padding: 100px 0 200px 0;
+    gap: 50px;
+}
+#dashboard{
+    background: rgb(192, 191, 191);
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+#home{
+    font-size: xx-large;
+}
+.dashboard{
+    display: grid;
+    grid-template-rows: 200px auto;
+    gap: 30px;
+}
+.streak{
+    background: pink;
+}
+.theRest{
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 30px 30px;
+    grid-template-columns: auto auto;
+}
+.profile{
+    display: grid;
+    grid-template-rows: auto;
+    background: rgb(134, 161, 209);
+}
+img{
+    height: 95px;
+    width: 100px;
+    border-radius: 90px;
+}
+#vdoCount{
+    background: white;
+}
+#con{
+    background: white; 
+}
+#streakGoal{
+    background: white;
+}
+#latestVdo{
+    background: white;
+}
